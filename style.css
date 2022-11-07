@@ -1,0 +1,36 @@
+body {
+  background-color: ##f6f8fa;
+  color: #000000;
+  font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+a, a:visited {
+  color: #000000;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+#installContainer {
+  position: absolute;
+  bottom: 1em;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+#installContainer button {
+  background-color: #06c;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.75em;
+   
+}
