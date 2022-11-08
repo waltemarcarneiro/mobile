@@ -30,10 +30,10 @@ h1, h2 {
 
 #installContainer button {
   background-color: #06c;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 10px;
   color: #fff;
   font-size: 1em;
   padding: 0.75em;
-  width: 90%;
+  width: 95%;
 }
