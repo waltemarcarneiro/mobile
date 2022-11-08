@@ -1,4 +1,6 @@
+*{margin: 0px;}
 body {
+  margin:0px;
   background-color: #eeeeee;
   color: #000000;
   font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
