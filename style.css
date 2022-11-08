@@ -1,5 +1,5 @@
 body {
-  background-color: #f6f8fa;
+  background-color: #eeeeee;
   color: #000000;
   font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -34,5 +34,4 @@ h1, h2 {
   font-size: 1em;
   padding: 0.75em;
   width: 90%;
-   
 }
