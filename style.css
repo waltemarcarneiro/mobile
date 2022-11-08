@@ -36,3 +36,12 @@ h1, h2 {
   padding: 0.75em;
   width: 95%;
 }
+#bb {
+  visibility: visible;
+  opacity: 1;
+  border: solid 1px #ccc;
+  border-radius: 10px;
+  background: #fff;
+  padding:10px;
+  height:80px;
+}
