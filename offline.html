@@ -1,29 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
-    <title>Offline</title>
+    <title>WaltemarApp</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#3f51b5">
-    <link rel="manifest" href="/manifest.json">
-    <style>
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        -webkit-font-smoothing: antialiased;
-      }
-      img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      h1, div {
-        text-align: center;
-      }
-    </style>
-  </head>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="offline.css">
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- favicon -->
+    <link href="https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/favicon.ico" rel="icon" type="image/x-icon"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/favicon-16x16.pmg">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/favicon-32x32.png">
+    <link rel="mask-icon" href="https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#89C541">
+    <meta content='#89C541' name='msapplication-navbutton-color'/>
+    <meta content="#89C541" name='apple-mobile-web-app-mobile-bar-style'/>
+    <!-- lighthouse config PWA -->
+    <meta content="#89C541" name="theme-color"/>
+    <meta content="Web Designer 🧡 Feito com Amor." name="description"/>
+
+    <!-- lighthouse config PWA Apple non-transparent 192px (or 180px) square PNG -->
+    <link href="https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/apple-touch-icon180.png" sizes="180x180" rel="apple-touch-icon"/>
+
+    <!-- [ Meta Tag OG ] -->
+    <meta content="website" property="og:type"/>
+    <meta content="https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/og-image.png" property="og:image"/>
+    <meta content="Og Image Logo" property="og:image:alt"/>
+    <meta content="Web Designer 🧡 Feito com Amor." property="og:description"/>
+    <meta content="WaltemarApp" property="og:site_name"/>
+    
+  </head>  
   <body>
-    <img src="">
-    <h1>Offline</h1>
+    <div class="content">
+      
+
+
+    </div>
+    
+    <p id="requireHTTPS" class="hidden">
+      <b>PARE!</b> A página <b>deve</b> deve está em um servidor HTTPS.
+      por favor <a>recarregue esta página via HTTPS</a>.
+    </p>
+          
+    <!-- Install button, hidden by default -->
+    <div id="installContainer" class="hidden">
+      
+      <button id="butInstall" type="button">
+      <div style="font-weight:bold; font-size:22px;color:#000; text-align:left; margin-bottom:5px;">Instalar o WaltemarApp? 🎁</div>
+      <img style="float:left; margin-right: 10px" src="https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/splash512x512.png" border="0" height="80" width="80"/>
+      <strong style="font-size: 18px; color: #777777; font-weight: 400;">Você poderá desfazer essa ação a qualquer momento.</strong><br />
+      <strong style="font-size: 0.95rem; color: #444">Leve e Confiavél.<a href="/mobile" style="color:#1087ff;" >Saiba mais!</a></strong>
+    
+      </button>
+    
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+    
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
   </body>
 </html>
