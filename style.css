@@ -54,14 +54,18 @@ h1, h2 {
   border-radius: 10px;
 }
   
-.content p {
+.content p{
     margin: 0;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    line-height: 30px;
+    line-height: 25px;
     font-size: 16px;
     color: #fff;
+}
+.content a{
+  color: #fff;
+  text-decoration: none;
 }
