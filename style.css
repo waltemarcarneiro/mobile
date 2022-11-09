@@ -42,3 +42,25 @@ h1, h2 {
   width: 95%;
   text-align: left;
 }
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #657c5c;
+  width: 50%;
+  height: 50%;
+ 
+}
+  
+.content p {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+    color: #fff;
+}
