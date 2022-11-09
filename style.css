@@ -48,8 +48,8 @@ h1, h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   border: 1px solid #657c5c;
-  width: 50%;
-  height: 50%;
+  width: 95%;
+  height: 20%;
  
 }
   
@@ -62,5 +62,5 @@ h1, h2 {
     text-align: center;
     line-height: 30px;
     font-size: 16px;
-    color: rgb(236, 199, 34);
+    color: #fff;
 }
