@@ -48,7 +48,7 @@ h1, h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(0, 0, 0, 0.2);
-  width: 95%;
+  width: 350px;
   height: 20%;
   border: 1pz solid #aaa;
   border-radius: 10px;
