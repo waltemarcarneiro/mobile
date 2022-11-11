@@ -76,14 +76,14 @@
         "purpose": "maskable"
       },
       {
-        "src": "https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/splash512x512.png",
-        "sizes": "512x512",
+        "src": "https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/screen.png",
+        "sizes": "480x800",
         "type": "image/png",
         "purpose": "any"
       },
       {
-        "src": "https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/splash512x512.png",
-        "sizes": "512x512",
+        "src": "https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/screen.png",
+        "sizes": "480x800",
         "type": "image/png",
         "purpose": "maskable"
       }
