@@ -77,13 +77,13 @@
       },
       {
         "src": "https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/screen.png",
-        "sizes": "480x800",
+        "sizes": "1080x1920",
         "type": "image/png",
         "purpose": "any"
       },
       {
         "src": "https://raw.githubusercontent.com/waltemarcarneiro/mobile/main/images/screen.png",
-        "sizes": "480x800",
+        "sizes": "1080x1920",
         "type": "image/png",
         "purpose": "maskable"
       }
