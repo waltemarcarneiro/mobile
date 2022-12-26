@@ -1,7 +1,7 @@
 *{margin: 0px;}
 body {
   margin:0px;
-  background: url() no-repeat center center fixed;
+  background: #f7f7f7 url() no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
