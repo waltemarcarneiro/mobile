@@ -37,8 +37,8 @@ h1, h2 {
   border: 1px solid #ccc;
   border-radius: 15px;
   color: #444;
-  font-size: 1em;
-  padding: 0.75em;
+  
+  padding: 0.5em;
   width: 95%;
   text-align: left;
 }
