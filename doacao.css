@@ -33,11 +33,12 @@ h1, h2 {
 }
 
 #installContainer button {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 15px;
-  color: #444;
   
+  background: rgb(254,87,34);
+  background: linear-gradient(0deg, rgba(254,87,34,1) 0%, rgba(255,218,115,1) 100%);
+  border: 1px solid #fe5722;
+  border-radius: 15px;
+  color: #fff;
   padding: 0.5em;
   width: 95%;
   text-align: left;
