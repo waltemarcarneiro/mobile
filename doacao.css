@@ -34,8 +34,8 @@ h1, h2 {
 
 #installContainer button {
   
-  background: rgb(254,87,34);
-  background: linear-gradient(0deg, rgba(254,87,34,1) 0%, rgba(255,218,115,1) 100%);
+  background: rgb(255,242,203);
+  background: linear-gradient(0deg, rgba(255,242,203,1) 0%, rgba(255,255,255,1) 73%, rgba(255,255,255,1) 100%);
   border: 1px solid #f5f5f5;
   border-radius: 15px;
   color: #fff;
